@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "endless_store_mod:concrete",
+    "endless_store_mod:plitka_water",
+    "endless_store_mod:mossy_concrete",
+    "endless_store_mod:overgrown_concrete",
+    "endless_store_mod:dark_mossy_concrete",
+    "endless_store_mod:dark_overgrown_concrete",
+    "endless_store_mod:dark_concrete",
+    "endless_store_mod:concrete_slab",
+
+    "endless_store_mod:concrete_stairs",
+    "endless_store_mod:dark_concrete_slab",
+    "endless_store_mod:dark_concrete_stairs",
+    "endless_store_mod:yellow_concrete",
+    "endless_store_mod:orange_granit",
+    "endless_store_mod:cargo_trolley_long_one_handles",
+    "endless_store_mod:cargo_trolley_long_two_handles",
+
+
+    "endless_store_mod:side_pipes",
+    "endless_store_mod:ceiling_pipes",
+    "endless_store_mod:metal_closet",
+    "endless_store_mod:practical_fence",
+    "endless_store_mod:metal_garage_door",
+    "endless_store_mod:concrete_furnace",
+
+    "endless_store_mod:ceiling_grid",
+    "endless_store_mod:side_storage_shelves",
+    "endless_store_mod:side_beams"
+  ]
+}

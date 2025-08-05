@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "endless_store_mod:acid",
+    "endless_store_mod:flowing_acid",
+    "endless_store_mod:waste_water",
+    "endless_store_mod:flowing_waste_water"
+  ]
+}

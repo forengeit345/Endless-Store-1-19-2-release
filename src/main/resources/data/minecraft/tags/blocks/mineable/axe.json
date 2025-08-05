@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "endless_store_mod:laminate_flooring_light",
+    "endless_store_mod:laminate_flooring_light_vertical",
+    "endless_store_mod:laminate_flooring_dark",
+    "endless_store_mod:laminate_flooring_mangrove",
+    "endless_store_mod:laminate_flooring_white",
+
+    "endless_store_mod:linoleum_light",
+    "endless_store_mod:linoleum_brown",
+
+    "endless_store_mod:shelves",
+    "endless_store_mod:baseboard",
+    "endless_store_mod:baseboard_corner",
+    "endless_store_mod:pallet",
+    "endless_store_mod:wall_map",
+    "endless_store_mod:wardrobe",
+    "endless_store_mod:big_wardrobe",
+    "endless_store_mod:wooden_chair",
+    "endless_store_mod:wooden_table",
+    "endless_store_mod:wooden_table_long",
+    "endless_store_mod:plastic_table",
+    "endless_store_mod:plastic_table_long",
+    "endless_store_mod:padded_stool",
+    "endless_store_mod:square_shelf",
+    "endless_store_mod:pedestal_altea",
+    "endless_store_mod:white_bookshelf",
+    "endless_store_mod:plastic_chair",
+    "endless_store_mod:bedside_table",
+    "endless_store_mod:black_door"
+  ]
+}

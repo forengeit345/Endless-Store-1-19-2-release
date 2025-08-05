@@ -1,0 +1,51 @@
+{
+  "temperature": 2,
+  "downfall": 0,
+  "precipitation": "none",
+  "temperature_modifier": "none",
+  "effects": {
+    "sky_color": 17249843,
+    "fog_color": 14736607,
+    "water_color": 9349545,
+    "water_fog_color": 12371656
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "endless_store_mod:jack",
+        "weight": 10,
+        "maxCount": 1,
+        "minCount": 1
+      }    ]
+  },
+  "spawn_costs": {
+    "endless_store_mod:employee": {
+      "charge": 1,
+      "energy_budget": 0.25
+    },
+    "endless_store_mod:security": {
+      "charge": 1,
+      "energy_budget": 0.12
+    },
+    "endless_store_mod:jack": {
+      "charge": 1,
+      "energy_budget": 0.53
+    }
+  },
+  "carvers": {
+    "air": "minecraft:cave"
+  },
+  "features": [
+    ["endless_store_mod:trash_landfill"],
+    ["endless_store_mod:toxic_lake"],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ]
+}

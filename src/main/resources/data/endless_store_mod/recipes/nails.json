@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#*"
+  ],
+  "key": {
+    "#": {
+      "item": "endless_store_mod:molten_scrap"
+    },
+    "*": {
+      "item": "endless_store_mod:plastic_acid_bucket"
+    }
+  },
+  "result":{
+    "item": "endless_store_mod:nails"
+  }
+}

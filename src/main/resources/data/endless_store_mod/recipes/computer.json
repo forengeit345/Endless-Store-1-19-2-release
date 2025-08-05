@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "-#-",
+    "###",
+    "*#*"
+  ],
+  "key": {
+    "#": {
+      "item": "endless_store_mod:metal_plates"
+    },
+    "*": {
+      "item": "endless_store_mod:wires"
+    },
+    "-": {
+      "item": "endless_store_mod:bolts"
+    }
+  },
+  "result":{
+    "item": "endless_store_mod:computer"
+  }
+}

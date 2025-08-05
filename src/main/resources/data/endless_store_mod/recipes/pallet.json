@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "endless_store_mod:wooden_board"
+    }
+  },
+  "result":{
+    "item": "endless_store_mod:pallet"
+  }
+}

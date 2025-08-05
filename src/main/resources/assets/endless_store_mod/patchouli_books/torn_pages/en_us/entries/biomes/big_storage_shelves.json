@@ -1,0 +1,16 @@
+{
+  "name": "Big Storage Shelves",
+  "icon": "endless_store_mod:side_storage_shelves",
+  "advancement": "endless_store_mod:biomes/big_storage_shelves",
+  "category": "endless_store_mod:biomes",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Impressive warehouse shelves with boxes on them and towering columns of concrete, for the most part, this is the entire biome. Its hard to find any kind of shelter or get a lot of food, but there are a lot of metal structures in it from which you can get mountains of scrap metal. The main opponents will be employees,"
+    },
+    {
+      "type": "text",
+      "text": "which see much better in an open area, unlike in a section with furniture. Also, you can almost always find a landfill biome on the border of the biome. In general, I dont really like this biome, is it too cold? And the arrows on the paths lead nowhere...."
+    }
+  ]
+}

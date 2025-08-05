@@ -1,0 +1,32 @@
+{
+  "name": "Basics Of Survival",
+  "icon": "endless_store_mod:sawdust_soup",
+  "advancement": "endless_store_mod:biomes/cardboard_wastelands",
+  "category": "endless_store_mod:received_data",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Theres no food in this world that Im used to, and I cant last long without it. Nothing can grow here because of the lack of land and plants as such, which means it wont be possible to stay in one place for a long time. Now I will write down the main food sources."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "endless_store_mod:mre"
+      },
+      "text": "In some places, strange packages can sometimes be found on the surface. If you tear them up in the inventory, you can get some quite edible pieces of dried bread from them, although they taste disgusting."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "endless_store_mod:bedside_table"
+      },
+      "text": "In this world, there is an alternative to chests, they open not from above, but from the side. Very often you can find something to drink or have a snack in them, but there is a lot of rot there. Once, I was even able to find a strange square metal thing with a handle there, I was able to break many heads with it."
+    },
+    {
+      "title": "Strange food",
+      "type": "patchouli:spotlight",
+      "item": "endless_store_mod:wet_wallpaper,endless_store_mod:sawdust_soup",
+      "text": "When I was already dying of hunger, I remembered how I was told that paper can also be eaten. I had to scrape it off the walls and wet it with water, it tastes disgusting, but there is not always a choice."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "+++",
+    "#*#"
+  ],
+  "key": {
+    "#": {
+      "item": "endless_store_mod:wooden_board"
+    },
+    "*": {
+      "item": "endless_store_mod:nails"
+    },
+    "+": {
+      "item": "minecraft:white_carpet"
+    }
+  },
+  "result":{
+    "item": "endless_store_mod:padded_stool"
+  }
+}

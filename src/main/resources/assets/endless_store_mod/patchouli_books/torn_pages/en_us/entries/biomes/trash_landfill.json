@@ -1,0 +1,16 @@
+{
+  "name": "Trash Landfill",
+  "icon": "endless_store_mod:plush_mouse_graf",
+  "advancement": "endless_store_mod:biomes/trash_landfill",
+  "category": "endless_store_mod:biomes",
+  "pages": [
+    {
+      "type": "text",
+      "text": "My least favorite biome of all. Toxic lakes combined with mountains of useless garbage. Although there is still something valuable in it, the same acid can be used for metalworking, and in the mountains of garbage you can find closed garages, items in which you can come in handy."
+    },
+    {
+      "type": "text",
+      "text": "Even so, dont come here unnecessarily and avoid meeting him for as long as possible."
+    }
+  ]
+}

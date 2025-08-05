@@ -1,0 +1,19 @@
+{
+  "name": "Джэк",
+  "icon": "endless_store_mod:trash_plastic",
+  "advancement": "endless_store_mod:entities/jack",
+  "category": "endless_store_mod:entities",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Когда я только зашел на свалку, мне показалось что жизни на ней нет вообще, но с наступлением тьмы из под завалов вылезли небольшие существа. Они достаточно слабы и медлительны, а также горы мусора не способствуют их атакам. Они всегда будут агрессивны к вам, чтобы вы не сделали."
+    },
+    {
+      "type": "image",
+      "text": "Вечерняя фотография",
+      "images": [
+        "endless_store_mod:textures/gui/entries/jack.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "temperature": 2,
+  "downfall": 0,
+  "precipitation": "none",
+  "temperature_modifier": "none",
+  "effects": {
+    "sky_color": 16249843,
+    "fog_color": 14736607,
+    "water_color": 9349545,
+    "water_fog_color": 12371656
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "endless_store_mod:employee",
+        "weight": 5,
+        "maxCount": 2,
+        "minCount": 2
+      }
+    ]
+  },
+  "spawn_costs": {
+    "endless_store_mod:employee": {
+      "charge": 1,
+      "energy_budget": 0.32
+    },
+    "endless_store_mod:security": {
+      "charge": 1,
+      "energy_budget": 0.12
+    },
+    "endless_store_mod:jack": {
+      "charge": 1,
+      "energy_budget": 0.25
+    }
+  },
+  "carvers": {
+    "air": "minecraft:cave"
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    ["endless_store_mod:hills_of_boxes"],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ]
+}

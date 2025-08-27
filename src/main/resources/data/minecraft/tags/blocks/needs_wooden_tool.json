@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "endless_store_mod:dark_cracked_concrete",
+    "endless_store_mod:trash_can",
+    "endless_store_mod:sink",
+    "endless_store_mod:bath",
+    "endless_store_mod:metal_pipe",
+    "endless_store_mod:metal_corner_pipe",
+    "endless_store_mod:cargo_trolley",
+    "endless_store_mod:radiator_right_side",
+    "endless_store_mod:radiator_left_side",
+    "endless_store_mod:linoleum_light",
+    "endless_store_mod:linoleum_brown",
+    "endless_store_mod:ceiling_tiles_white"
+  ]
+}

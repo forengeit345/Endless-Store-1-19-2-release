@@ -1,0 +1,17 @@
+{
+  "name": "Выход",
+  "icon": "endless_store_mod:bolts",
+  "advancement": "endless_store_mod:enter",
+  "category": "endless_store_mod:finding_anomaly",
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:computer",
+      "text": "Это было тяжело... Воссоздать эту штуку было нереально сложно, не зная как она работает, но у меня получилось. Осталось только его запустить. Здесь я закончу писать и отдам этот блокнот одному из работников, интересно, что он с ним сделает..."
+    },
+    {
+      "type": "text",
+      "text": ""
+    }
+  ]
+}

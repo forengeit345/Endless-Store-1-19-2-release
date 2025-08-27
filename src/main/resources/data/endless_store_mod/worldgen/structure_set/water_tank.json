@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "endless_store_mod:water_tank",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1695768965,
+    "spacing": 15,
+    "separation": 5
+  }
+}

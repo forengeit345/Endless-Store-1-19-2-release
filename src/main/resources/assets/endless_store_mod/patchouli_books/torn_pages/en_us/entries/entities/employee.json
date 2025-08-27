@@ -1,0 +1,19 @@
+{
+  "name": "Employee",
+  "icon": "endless_store_mod:employees_shirt",
+  "advancement": "endless_store_mod:entities/employee",
+  "category": "endless_store_mod:entities",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Initially, I wanted to call them Faceless, but before I could write anything down, they came up and started talking to me. The workers, thats what they called themselves. At first glance, it may seem that this is a scary but intelligent monster, but do not be fooled. They will answer all your questions with a small number of phrases that dont even always make sense. In the light of day, they will be neutral towards you and just wander, but if you decide to attack them or darkness falls, they will give you a worthy rebuff. Maybe theyre imitating someone, but to whom?"
+    },
+    {
+      "type": "image",
+      "text": "Photo of one of the employees",
+      "images": [
+        "endless_store_mod:textures/gui/entries/employee.png"
+      ]
+    }
+  ]
+}

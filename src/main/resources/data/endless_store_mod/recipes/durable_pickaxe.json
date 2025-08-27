@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "+++",
+    "#*#",
+    " * "
+  ],
+  "key": {
+    "#": {
+      "item": "endless_store_mod:bolts"
+    },
+    "*": {
+      "item": "endless_store_mod:metal_pipes"
+    },
+    "+": {
+      "item": "endless_store_mod:metal_plates"
+    }
+  },
+  "result":{
+    "item": "endless_store_mod:durable_pickaxe"
+  }
+}

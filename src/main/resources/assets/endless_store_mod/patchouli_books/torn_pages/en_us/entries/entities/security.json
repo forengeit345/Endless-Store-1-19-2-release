@@ -1,0 +1,19 @@
+{
+  "name": "Security",
+  "icon": "endless_store_mod:security_shirt",
+  "advancement": "endless_store_mod:entities/security",
+  "category": "endless_store_mod:entities",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Fast, strong, ruthless. Animals in the guise of faceless. Usually these creatures walk one at a time, but if there is a small group of them, then your chances of survival drop dramatically, even it is not easy to escape from them."
+    },
+    {
+      "type": "image",
+      "text": "Silent photography",
+      "images": [
+        "endless_store_mod:textures/gui/entries/security.png"
+      ]
+    }
+  ]
+}

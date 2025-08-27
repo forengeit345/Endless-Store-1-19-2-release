@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "endless_store_mod:hanging_lamps",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spread_type": "triangular",
+    "salt": 1695767195,
+    "spacing": 2,
+    "separation": 0
+  }
+}

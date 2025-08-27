@@ -1,0 +1,17 @@
+{
+  "name": "Exit",
+  "icon": "endless_store_mod:bolts",
+  "advancement": "endless_store_mod:enter",
+  "category": "endless_store_mod:finding_anomaly",
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:computer",
+      "text": "It was hard. It was incredibly difficult to recreate this thing without knowing how it works, but I did it. All that remains is to launch it. Here I will finish writing and give this notebook to one of the employees, I wonder what he will do with it."
+    },
+    {
+      "type": "text",
+      "text": ""
+    }
+  ]
+}

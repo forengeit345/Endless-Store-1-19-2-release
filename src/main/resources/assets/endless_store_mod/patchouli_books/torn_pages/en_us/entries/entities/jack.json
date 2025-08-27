@@ -1,0 +1,19 @@
+{
+  "name": "Jack",
+  "icon": "endless_store_mod:trash_plastic",
+  "advancement": "endless_store_mod:entities/jack",
+  "category": "endless_store_mod:entities",
+  "pages": [
+    {
+      "type": "text",
+      "text": "When I first entered the landfill, it seemed to me that there was no life at all, but with the onset of darkness, small creatures crawled out from under the rubble. They are quite weak and slow, and the mountains of garbage do not contribute to their attacks. They will always be aggressive towards you, no matter what you do."
+    },
+    {
+      "type": "image",
+      "text": "Evening photography",
+      "images": [
+        "endless_store_mod:textures/gui/entries/jack.png"
+      ]
+    }
+  ]
+}

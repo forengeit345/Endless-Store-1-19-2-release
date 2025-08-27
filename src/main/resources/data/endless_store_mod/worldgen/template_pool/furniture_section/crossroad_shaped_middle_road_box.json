@@ -1,0 +1,15 @@
+{
+  "name": "endless_store_mod:furniture_section/crossroad_shaped_middle_road_box",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "endless_store_mod:furniture_section/roads/crossroad_shaped_middle_road_box",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "endless_store_mod:garage",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1695767181,
+    "spacing": 4,
+    "separation": 3
+  }
+}

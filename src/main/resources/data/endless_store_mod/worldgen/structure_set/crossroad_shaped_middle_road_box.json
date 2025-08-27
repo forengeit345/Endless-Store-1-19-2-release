@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "endless_store_mod:crossroad_shaped_middle_road_box",
+      "weight": 100
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1795767182,
+    "spacing": 16,
+    "separation": 14
+  }
+}

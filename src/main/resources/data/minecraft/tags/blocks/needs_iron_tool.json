@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "endless_store_mod:white_brick",
+    "endless_store_mod:white_brick_alternative",
+    "endless_store_mod:white_brick_slab",
+    "endless_store_mod:white_brick_stairs_es",
+    "endless_store_mod:white_brick_slab_alternative",
+    "endless_store_mod:white_brick_stairs_alternative",
+    "endless_store_mod:vertical_washing_machine",
+    "endless_store_mod:safe",
+    "endless_store_mod:vending_machine",
+    "endless_store_mod:vertical_boiler",
+    "endless_store_mod:horizontal_boiler"
+  ]
+}

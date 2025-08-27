@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "endless_store_mod",
+	"version": "${version}",
+	"name": "Endless Store Mod",
+	"description": "mod.endless_store_mod.description",
+	"authors": [
+		"forengeit345, Mikr"
+	],
+	"contact": {
+		"sources": "https://github.com/forengeit345/Endless-Store-release.git"
+	},
+
+	"license": "Licensed Apache-2.0",
+	"icon": "assets/endless_store_mod/icon.png",
+
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.es.endless_store_mod.EndlessStoreMod"
+		],
+		"client": [
+			"net.es.endless_store_mod.EndlessClientMod"
+		],
+		"fabric-datagen": [
+			"net.es.endless_store_mod.EndlessStoreDataGeneration"
+		]
+	},
+	"mixins": [
+		"endless_store_mod.mixins.json"
+	],
+
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

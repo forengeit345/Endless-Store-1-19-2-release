@@ -1,0 +1,34 @@
+{
+  "name": "Creating Tools",
+  "icon": "endless_store_mod:flimsy_pickaxe",
+  "advancement": "endless_store_mod:biomes/furniture_section",
+  "category": "endless_store_mod:received_data",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Tools are also needed in this world. It turned out to be impossible to get the resources I needed for tools in the usual way, the floor was incredibly hard, and I couldnt find any trees in this world. But the solution was always at hand, in this world there are ready-made boards, namely, in furniture, the same with the rest of the resources."
+    },
+    {
+      "type": "text",
+      "text": "But even so, I had to replace a lot of materials with their alternatives. In order not to forget my ingenious DIY projects and share them with you, Im going to write them down now."
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:flimsy_pickaxe",
+      "recipe2": "endless_store_mod:handmade_pickaxe"
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:handmade_shovel",
+      "recipe2": "endless_store_mod:handmade_axe"
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:durable_pickaxe"
+    },
+    {
+      "type": "text",
+      "text": ""
+    }
+  ]
+}

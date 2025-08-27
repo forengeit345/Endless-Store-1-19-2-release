@@ -1,0 +1,19 @@
+{
+  "name": "Охранник",
+  "icon": "endless_store_mod:security_shirt",
+  "advancement": "endless_store_mod:entities/security",
+  "category": "endless_store_mod:entities",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Быстрые, сильные, безжалостные. Звери в обличии безлицых. Обычно эти существа ходят по одному, но если их небольшая группа, то ваши шансы на выживание резко падают, даже убежать от них непросто."
+    },
+    {
+      "type": "image",
+      "text": "Аккуратно сделанная фотография ночью",
+      "images": [
+        "endless_store_mod:textures/gui/entries/security.png"
+      ]
+    }
+  ]
+}

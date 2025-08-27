@@ -1,0 +1,55 @@
+{
+  "name": "Фурнитура",
+  "icon": "endless_store_mod:wooden_chair",
+  "advancement": "endless_store_mod:biomes/furniture_section",
+  "category": "endless_store_mod:received_data",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Переносить фурнитуру очень тяжело, а часть из неё в принципе невозможно поднять из-за веса, поэтому мне приходилось ломать всё на своем пути. К сожалению часть фурнитуры мне восстановить не удалось, но что-то простое вроде столов у меня получилось воссоздать с детальной точностью. Все известные схемы мебели я постарался записать здесь, но мог и что-то забыть..."
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:crafting_table",
+      "recipe2": "endless_store_mod:bedside_table"
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:lamp",
+      "recipe2": "endless_store_mod:metal_closet"
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:wooden_table",
+      "recipe2": "endless_store_mod:padded_stool"
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:plastic_chair",
+      "recipe2": "endless_store_mod:plastic_table"
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:plush_mouse_graf",
+      "recipe2": "endless_store_mod:shelves"
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:square_shelf",
+      "recipe2": "endless_store_mod:wardrobe"
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:white_bookshelf",
+      "recipe2": "endless_store_mod:wooden_chair"
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:fuse_box"
+    },
+    {
+      "type": "text",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#*#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "endless_store_mod:concrete_crumbs"
+    },
+    "*": {
+      "item": "endless_store_mod:plastic_waste_water_bucket"
+    }
+  },
+  "result":{
+    "item": "endless_store_mod:concrete_brick"
+  }
+}

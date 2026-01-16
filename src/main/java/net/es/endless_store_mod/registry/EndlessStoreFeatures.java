@@ -1,9 +1,6 @@
 package net.es.endless_store_mod.registry;
 
-import net.es.endless_store_mod.world.features.HillsOfBoxes;
-import net.es.endless_store_mod.world.features.SinWaveHillFeature;
-import net.es.endless_store_mod.world.features.ToxicLake;
-import net.es.endless_store_mod.world.features.TrashLandfill;
+import net.es.endless_store_mod.world.features.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -22,11 +19,18 @@ public class EndlessStoreFeatures {
     public static final ToxicLake TOXIC_LAKE  = new ToxicLake();
     public static final Identifier TOXIC_LAKE_ID = new Identifier("endless_store_mod", "toxic_lake");
 
+    public static final AbandonedHills ABANDONED_HILLS  = new AbandonedHills();
+    public static final Identifier ABANDONED_HILLS_ID = new Identifier("endless_store_mod", "abandoned_hills");
+
+    public static final ChainMailTrees CHAIN_MAIL_TREES  = new ChainMailTrees();
+    public static final Identifier CHAIN_MAIL_TREES_ID = new Identifier("endless_store_mod", "chain_mail_trees");
 
     public static void registerFeatures() {
         Registry.register(Registries.FEATURE, SIN_WAVE_HILL_ID, SIN_WAVE_HILL_FEATURE);
         Registry.register(Registries.FEATURE, HILLS_OF_BOXES_ID, HILLS_OF_BOXES);
         Registry.register(Registries.FEATURE, TRASH_LANDFILL_ID, TRASH_LANDFILL);
         Registry.register(Registries.FEATURE, TOXIC_LAKE_ID, TOXIC_LAKE);
+        Registry.register(Registries.FEATURE, ABANDONED_HILLS_ID, ABANDONED_HILLS);
+        Registry.register(Registries.FEATURE, CHAIN_MAIL_TREES_ID, CHAIN_MAIL_TREES);
     }
 }

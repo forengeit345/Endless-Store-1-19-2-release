@@ -61,21 +61,28 @@ public class SecurityEntity extends HostileEntity implements GeoEntity {
     }
 
     private <T extends GeoAnimatable> PlayState predicate(AnimationState<T> tAnimationState) {
-        if (tAnimationState.isMoving() && !this.handSwinging && !(this.isAttacking())) {
-            tAnimationState.getController().setAnimation(RawAnimation.begin().then("animation.security.walk", Animation.LoopType.LOOP));
-            return PlayState.CONTINUE;
-        }
         if (tAnimationState.isMoving() && !this.handSwinging && this.isAttacking()) {
             tAnimationState.getController().setAnimation(RawAnimation.begin().then("animation.security.run", Animation.LoopType.LOOP));
+            return PlayState.CONTINUE;
+        }
+        if (tAnimationState.isMoving() && !this.handSwinging) {
+            tAnimationState.getController().setAnimation(RawAnimation.begin().then("animation.security.walk", Animation.LoopType.LOOP));
             return PlayState.CONTINUE;
         }
         else if (!tAnimationState.isMoving() && !this.handSwinging) {
             tAnimationState.getController().setAnimation(RawAnimation.begin().then("animation.security.idle", Animation.LoopType.LOOP));
             return PlayState.CONTINUE;
         }
-        else {
-            return PlayState.STOP;
-        }
+        return PlayState.CONTINUE;
+//        if (tAnimationState.isMoving()) {
+//            tAnimationState.getController().setAnimation(RawAnimation.begin().then("animation.security.walk", Animation.LoopType.LOOP));
+//            return PlayState.CONTINUE;
+//        }
+//        else if (!tAnimationState.isMoving() && !this.handSwinging) {
+//            tAnimationState.getController().setAnimation(RawAnimation.begin().then("animation.security.idle", Animation.LoopType.LOOP));
+//            return PlayState.CONTINUE;
+//        }
+//        return PlayState.CONTINUE;
     }
 
     @Override

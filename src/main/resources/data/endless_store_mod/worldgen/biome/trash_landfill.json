@@ -37,6 +37,14 @@
     "endless_store_mod:jack": {
       "charge": 1,
       "energy_budget": 0.53
+    },
+    "endless_store_mod:water_strider": {
+      "charge": 1,
+      "energy_budget": 0.18
+    },
+    "endless_store_mod:watcher": {
+      "charge": 1,
+      "energy_budget": 0.1
     }
   },
   "spawners": {

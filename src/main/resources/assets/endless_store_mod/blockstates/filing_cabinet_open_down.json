@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "endless_store_mod:block/filing_cabinet_open_down",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "endless_store_mod:block/filing_cabinet_open_down",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "endless_store_mod:block/filing_cabinet_open_down"
+    },
+    "facing=east": {
+      "model": "endless_store_mod:block/filing_cabinet_open_down",
+      "y": 180
+    }
+  }
+}

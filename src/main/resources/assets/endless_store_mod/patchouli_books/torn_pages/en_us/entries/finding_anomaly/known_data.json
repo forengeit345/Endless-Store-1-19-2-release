@@ -6,11 +6,11 @@
   "pages": [
     {
       "type": "text",
-      "text": "Before entering the dimension, I tried to gather as much information as possible. It wasnt that easy, because most of the garbage gets into our dimension, but I managed to get some valuable things. A square metal box stood out from all of them, which glowed, there was something written on it, but the inscription caught my eye $(#ff0000)EXIT$()."
+      "text": "Before entering this dimension, I tried to gather as much information as possible. It wasn't easy, because mostly junk from our world ends up here, but I managed to find some valuable things too. Among them, a square metal box that glowed stood out. Something was written on it, but the label that immediately caught my eye was $(#ff0000)EXIT$()."
     },
     {
       "type": "text",
-      "text": "When I tried to interact with the box, it went out and the smell of burning hung in the air, perhaps once in the dimension I would be able to get the same or $(#ff0000)create something similar...$()"
+      "text": "When I tried to interact with the box, it went dark and the smell of burning filled the air. Perhaps, once in the dimension, I'll be able to find another one or $(#ff0000)create something similar...$()"
     }
   ]
 }

@@ -12,6 +12,18 @@
     "endless_store_mod:radiator_left_side",
     "endless_store_mod:linoleum_light",
     "endless_store_mod:linoleum_brown",
-    "endless_store_mod:ceiling_tiles_white"
+    "endless_store_mod:ceiling_tiles_white",
+    "endless_store_mod:chain_mail",
+    "endless_store_mod:lime_mud",
+    "endless_store_mod:small_wooden_barricades",
+    "endless_store_mod:medium_wooden_barricades",
+    "endless_store_mod:large_wooden_barricades",
+    "endless_store_mod:filing_cabinet_closed",
+    "endless_store_mod:filing_cabinet_open_up",
+    "endless_store_mod:filing_cabinet_open_down",
+    "endless_store_mod:showcase_with_dishes",
+    "endless_store_mod:filing_cabinet_closed",
+    "endless_store_mod:filing_cabinet_open_up",
+    "endless_store_mod:filing_cabinet_open_down"
   ]
 }

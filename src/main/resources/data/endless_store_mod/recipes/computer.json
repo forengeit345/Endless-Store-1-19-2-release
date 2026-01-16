@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "-#-",
-    "###",
+    "/+/",
     "*#*"
   ],
   "key": {
@@ -10,10 +10,16 @@
       "item": "endless_store_mod:metal_plates"
     },
     "*": {
-      "item": "endless_store_mod:wires"
+      "item": "endless_store_mod:coil_copper_wires"
     },
     "-": {
-      "item": "endless_store_mod:bolts"
+      "item": "endless_store_mod:transistor"
+    },
+    "+": {
+      "item": "endless_store_mod:electronic_board"
+    },
+    "/": {
+      "item": "endless_store_mod:microchip"
     }
   },
   "result":{

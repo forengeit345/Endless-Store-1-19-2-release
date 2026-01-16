@@ -17,15 +17,31 @@ public enum EndlessStoreArmorMaterials implements StringIdentifiable, ArmorMater
         map.put(ArmorItem.Type.BOOTS, 1);
         map.put(ArmorItem.Type.LEGGINGS, 2);
         map.put(ArmorItem.Type.CHESTPLATE, 3);
-        map.put(ArmorItem.Type.HELMET, 1);
+        map.put(ArmorItem.Type.HELMET, 2);
     }), 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{EndlessStoreItems.COARSE_FABRIC});
+    }),
+    HANDMADE("handmade", 5, (EnumMap)Util.make(new EnumMap(ArmorItem.Type.class), (map) -> {
+        map.put(ArmorItem.Type.BOOTS, 1);
+        map.put(ArmorItem.Type.LEGGINGS, 2);
+        map.put(ArmorItem.Type.CHESTPLATE, 2);
+        map.put(ArmorItem.Type.HELMET, 1);
+    }), 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{EndlessStoreItems.PIECE_OF_CARDBOARD});
+    }),
+    HANDMADE_IRON("handmade_iron", 5, (EnumMap)Util.make(new EnumMap(ArmorItem.Type.class), (map) -> {
+        map.put(ArmorItem.Type.BOOTS, 2);
+        map.put(ArmorItem.Type.LEGGINGS, 4);
+        map.put(ArmorItem.Type.CHESTPLATE, 5);
+        map.put(ArmorItem.Type.HELMET, 3);
+    }), 15, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F, 0.0F, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{EndlessStoreItems.SCRAP});
     }),
     SECURITY("security", 5, (EnumMap)Util.make(new EnumMap(ArmorItem.Type.class), (map) -> {
         map.put(ArmorItem.Type.BOOTS, 1);
         map.put(ArmorItem.Type.LEGGINGS, 4);
         map.put(ArmorItem.Type.CHESTPLATE, 5);
-        map.put(ArmorItem.Type.HELMET, 2);
+        map.put(ArmorItem.Type.HELMET, 3);
     }), 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{EndlessStoreItems.COARSE_FABRIC});
     });

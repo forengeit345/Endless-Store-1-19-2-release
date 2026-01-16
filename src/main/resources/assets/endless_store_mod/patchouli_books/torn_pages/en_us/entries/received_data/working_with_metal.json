@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "Metalworking and mining work a little differently in this world. Metal, or rather scrap metal, can be obtained from underground pipes at the beginning, while having a flimsy pickaxe, then it can be extracted from most furniture with a better pickaxe. I couldnt find the stone I needed in this world, so I replaced it with concrete. As a result, I got a concrete stove made of concrete bricks, I will write down the recipes for both."
+      "text": "Processing and obtaining metal works a bit differently in this world. Metal, or rather scrap metal, can initially be obtained from underground pipes if you have a flimsy pickaxe. Later, you can get it from most furniture if you have a better pickaxe. I couldn't find the right kind of stone in this world, so I replaced it with concrete. In the end, I made a concrete furnace out of concrete bricks (I'll write down the recipes for both)."
     },
     {
       "type": "crafting",
@@ -16,7 +16,7 @@
     {
       "type": "smelting",
       "recipe": "endless_store_mod:molten_scrap",
-      "text": "With fuel, a concrete furnace, and scrap metal, you can get molten metal that can already be used with acid."
+      "text": "Having fuel, a concrete furnace, and scrap metal, you can get molten metal, which can then be used with acid."
     },
     {
       "type": "text",

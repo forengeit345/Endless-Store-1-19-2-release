@@ -1,0 +1,19 @@
+{
+  "name": "Водомерка",
+  "icon": "endless_store_mod:water_strider_eggs",
+  "advancement": "endless_store_mod:entities/water_strider",
+  "category": "endless_store_mod:entities",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Водомерка - самое мерзкое существо из всех, что я видел. Передвигаясь по воде, оно живет в зловонной канализации и ест все подряд. Даже впроголодь они вырастают до размеров собаки и не уступают ей в силе. Более того, они терраформируют все вокруг, покрывая слизью и кладками яиц. Есть один плюс: их яйца очень питательны и на вкус вполне ничего..."
+    },
+    {
+      "type": "image",
+      "text": "Из-за темноты, фотография вышла ужасно",
+      "images": [
+        "endless_store_mod:textures/gui/entries/water_strider.png"
+      ]
+    }
+  ]
+}

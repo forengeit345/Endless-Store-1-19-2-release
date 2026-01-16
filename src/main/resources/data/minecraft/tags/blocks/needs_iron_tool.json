@@ -11,6 +11,9 @@
     "endless_store_mod:safe",
     "endless_store_mod:vending_machine",
     "endless_store_mod:vertical_boiler",
-    "endless_store_mod:horizontal_boiler"
+    "endless_store_mod:horizontal_boiler",
+
+    "endless_store_mod:white_brick_damaged",
+    "endless_store_mod:white_brick_mossy"
   ]
 }

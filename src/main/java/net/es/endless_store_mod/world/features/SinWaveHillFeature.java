@@ -23,7 +23,7 @@ public class SinWaveHillFeature extends Feature<DefaultFeatureConfig> {
             EndlessStoreBlocks.CONCRETE
     );
 
-    private static final float SECONDARY_BLOCK_CHANCE = 0.2F; // 20% шанс добавления
+    private static final float SECONDARY_BLOCK_CHANCE = 0.2F;
     private static final List<Block> SURFACE_BLOCKS = List.of(
             EndlessStoreBlocks.CARDBOARD_BOX,
             EndlessStoreBlocks.CARDBOARD_BOX_OPEN,

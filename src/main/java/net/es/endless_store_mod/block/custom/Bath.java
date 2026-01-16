@@ -26,6 +26,7 @@ public class Bath extends HorizontalFacingBlock {
     private static final VoxelShape SHAPE_S = Block.createCuboidShape(0, 0, 0, 16, 16, 32);
     private static final VoxelShape SHAPE_W = Block.createCuboidShape(-16, 0, 0, 16, 16, 16);
     private static final VoxelShape SHAPE_E = Block.createCuboidShape(0, 0, 0, 32, 16, 16);
+
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         return switch (state.get(FACING)) {

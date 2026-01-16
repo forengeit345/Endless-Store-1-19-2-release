@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "endless_store_mod:textures/entity/watcher.png": "outlined_sprite:endless_store_mod/watcher.png",
+    "default": "outlined_sprite:endless_store_mod/watcher.png"
+  }
+}

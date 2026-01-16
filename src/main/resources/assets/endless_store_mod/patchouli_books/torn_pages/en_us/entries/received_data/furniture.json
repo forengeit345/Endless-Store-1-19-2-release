@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "Its very difficult to carry the hardware, and some of it is basically impossible to lift because of the weight, so I had to break everything in my path. Unfortunately, I couldnt restore some of the fittings, but I managed to recreate something simple like tables with detailed accuracy. I tried to write down all the known furniture schemes here, but I might have forgotten something."
+      "text": "Carrying furniture is very heavy, and some of it can't be lifted at all due to its weight, so I had to break everything in my path. Unfortunately, I couldn't restore some parts of the furniture, but I managed to recreate simpler things like tables with great detail. I've tried to write down all the known furniture blueprints here, though I might have forgotten something..."
     },
     {
       "type": "crafting",
@@ -45,11 +45,13 @@
     },
     {
       "type": "crafting",
-      "recipe": "endless_store_mod:fuse_box"
+      "recipe": "endless_store_mod:small_wooden_barricades",
+      "recipe2": "endless_store_mod:medium_wooden_barricades"
     },
     {
-      "type": "text",
-      "text": ""
+      "type": "crafting",
+      "recipe": "endless_store_mod:large_wooden_barricades",
+      "recipe2": "endless_store_mod:fuse_box"
     }
   ]
 }

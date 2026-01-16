@@ -2,7 +2,6 @@
 	"format_version": "1.8.0",
 	"animations": {
 		"animation.security.walk": {
-			"loop": true,
 			"animation_length": 1.6228,
 			"bones": {
 				"Chest_2": {
@@ -224,7 +223,6 @@
 			}
 		},
 		"animation.security.idle": {
-			"loop": true,
 			"animation_length": 5.8674,
 			"bones": {
 				"Belly": {
@@ -799,6 +797,5 @@
 				}
 			}
 		}
-	},
-	"geckolib_format_version": 2
+	}
 }

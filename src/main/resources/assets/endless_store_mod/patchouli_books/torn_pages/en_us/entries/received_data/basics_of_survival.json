@@ -6,27 +6,38 @@
   "pages": [
     {
       "type": "text",
-      "text": "Theres no food in this world that Im used to, and I cant last long without it. Nothing can grow here because of the lack of land and plants as such, which means it wont be possible to stay in one place for a long time. Now I will write down the main food sources."
+      "text": "There is no familiar food in this world, and you can't last long without it. Nothing can grow here due to the lack of soil and plants, so you can't stay in one place for too long. I will now write down the main sources of food.\n\n"
     },
     {
       "type": "patchouli:spotlight",
       "item": {
         "item": "endless_store_mod:mre"
       },
-      "text": "In some places, strange packages can sometimes be found on the surface. If you tear them up in the inventory, you can get some quite edible pieces of dried bread from them, although they taste disgusting."
+      "text": "In some places on the surface, you can sometimes find strange packages. If you tear them open in your inventory, you can get several quite edible pieces of dried bread, although they taste awful."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "endless_store_mod:sandwich"
+      },
+      "text": "In the furniture section, you can sometimes find places where perfectly appetizing food sits on round white stands. Its biggest drawback is that it's not renewable, and you can only find more by moving forward."
     },
     {
       "type": "patchouli:spotlight",
       "item": {
         "item": "endless_store_mod:bedside_table"
       },
-      "text": "In this world, there is an alternative to chests, they open not from above, but from the side. Very often you can find something to drink or have a snack in them, but there is a lot of rot there. Once, I was even able to find a strange square metal thing with a handle there, I was able to break many heads with it."
+      "text": "In this world, there is an alternative to chests—they open from the side, not the top. You can often find something to drink or eat inside, but there's also a lot of rotten stuff. Once, I even found a strange square metal thing with a handle there—I was able to break quite a few heads with it."
     },
     {
       "title": "Strange food",
       "type": "patchouli:spotlight",
       "item": "endless_store_mod:wet_wallpaper,endless_store_mod:sawdust_soup",
-      "text": "When I was already dying of hunger, I remembered how I was told that paper can also be eaten. I had to scrape it off the walls and wet it with water, it tastes disgusting, but there is not always a choice."
+      "text": "When I was starving, I remembered hearing that you can eat paper too. I had to scrape it off the walls and moisten it with water. It tastes disgusting, but you don't always have a choice. Using the same principle, I later made soup from sawdust, using a board I broke by hand instead of paper."
+    },
+    {
+      "type": "text",
+      "text": ""
     }
   ]
 }

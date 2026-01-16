@@ -1,5 +1,5 @@
 {
-  "parent": "endless_store_mod:enter",
+  "parent": "endless_store_mod:beginning_of_the_end",
   "display": {
     "icon": {
       "item": "minecraft:enchanted_book"

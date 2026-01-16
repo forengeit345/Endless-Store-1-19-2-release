@@ -1,13 +1,50 @@
 {
   "name": "Exit",
   "icon": "endless_store_mod:bolts",
-  "advancement": "endless_store_mod:enter",
+  "advancement": "endless_store_mod:exit",
   "category": "endless_store_mod:finding_anomaly",
   "pages": [
     {
       "type": "crafting",
       "recipe": "endless_store_mod:computer",
-      "text": "It was hard. It was incredibly difficult to recreate this thing without knowing how it works, but I did it. All that remains is to launch it. Here I will finish writing and give this notebook to one of the employees, I wonder what he will do with it."
+      "text": "It was tough... Recreating this thing was incredibly difficult without knowing how it works, but I succeeded. Now all that's left is to start it."
+    },
+    {
+      "type": "text",
+      "text": "In any case, I must write down how to obtain and create all the necessary parts. Right after this, I will give this notebook to one of the Workers. I wonder what they will do with it..."
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:coil_copper_wires",
+      "text": "The easiest part is the wires. You can get them from many places, and you won't need many."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "endless_store_mod:metal_plates"
+      },
+      "text": "Metal plates are clearly harder. To create them, you need to melt down scrap metal and treat the resulting ingot with acid (I wrote about this in more detail in other chapters)."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "endless_store_mod:transistor"
+      },
+      "text": "The transistor was the first thing I got, but not without a fight. I found it in a box marked with blue tape, in a warehouse in the sewers."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "endless_store_mod:microchip"
+      },
+      "text": "The chip I got without a fight, but I had to spend a lot of time and effort trying to climb every shelf to find the right box with blue tape."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "endless_store_mod:electronic_board"
+      },
+      "text": "The electronic board can't be obtained without a good tool that can cut through metal or break brick. I dug it out from under piles of garbage in a random garage."
     },
     {
       "type": "text",

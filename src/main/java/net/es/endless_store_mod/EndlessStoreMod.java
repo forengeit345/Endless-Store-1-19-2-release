@@ -2,10 +2,9 @@ package net.es.endless_store_mod;
 
 import net.es.endless_store_mod.block.EndlessStoreBlocks;
 import net.es.endless_store_mod.block.entity.CustomBlockEntities;
+import net.es.endless_store_mod.entity.ConfigurableHeightSpawnRestriction;
 import net.es.endless_store_mod.entity.EndlessStoreEntities;
-import net.es.endless_store_mod.entity.custom.EmployeeEntity;
-import net.es.endless_store_mod.entity.custom.JackEntity;
-import net.es.endless_store_mod.entity.custom.SecurityEntity;
+import net.es.endless_store_mod.entity.custom.*;
 import net.es.endless_store_mod.fluid.EndlessStoreFluids;
 import net.es.endless_store_mod.item.EndlessStoreItemGroup;
 import net.es.endless_store_mod.item.EndlessStoreItems;
@@ -42,6 +41,10 @@ public class EndlessStoreMod implements ModInitializer {
 		FabricDefaultAttributeRegistry.register(EndlessStoreEntities.EMPLOYEE, EmployeeEntity.setAttributes());
 		FabricDefaultAttributeRegistry.register(EndlessStoreEntities.JACK, JackEntity.setAttributes());
 		FabricDefaultAttributeRegistry.register(EndlessStoreEntities.SECURITY, SecurityEntity.setAttributes());
+		FabricDefaultAttributeRegistry.register(EndlessStoreEntities.WATCHER, WatcherEntity.setAttributes());
+		FabricDefaultAttributeRegistry.register(EndlessStoreEntities.WATER_STRIDER, WaterStriderEntity.setAttributes());
+
+		ConfigurableHeightSpawnRestriction.register();
 
 		EndlessStoreFeatures.registerFeatures();
 	}

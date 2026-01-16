@@ -6,6 +6,10 @@
     "endless_store_mod:laminate_flooring_dark",
     "endless_store_mod:laminate_flooring_mangrove",
     "endless_store_mod:laminate_flooring_white",
+    "endless_store_mod:laminate_flooring_dark_damaged",
+    "endless_store_mod:laminate_flooring_light_damaged",
+    "endless_store_mod:laminate_flooring_mangrove_damaged",
+    "endless_store_mod:laminate_flooring_white_damaged",
 
     "endless_store_mod:linoleum_light",
     "endless_store_mod:linoleum_brown",
@@ -27,6 +31,18 @@
     "endless_store_mod:pedestal_altea",
     "endless_store_mod:white_bookshelf",
     "endless_store_mod:plastic_chair",
-    "endless_store_mod:bedside_table"
+    "endless_store_mod:bedside_table",
+    "endless_store_mod:small_wooden_barricades",
+    "endless_store_mod:medium_wooden_barricades",
+    "endless_store_mod:large_wooden_barricades",
+    "endless_store_mod:painting_horizontal_forest",
+    "endless_store_mod:painting_horizontal_sunset",
+    "endless_store_mod:painting_horizontal_emptiness",
+    "endless_store_mod:painting_vertical_lake",
+    "endless_store_mod:painting_vertical_city",
+    "endless_store_mod:painting_vertical_pipes",
+    "endless_store_mod:filing_cabinet_closed",
+    "endless_store_mod:filing_cabinet_open_up",
+    "endless_store_mod:filing_cabinet_open_down"
   ]
 }

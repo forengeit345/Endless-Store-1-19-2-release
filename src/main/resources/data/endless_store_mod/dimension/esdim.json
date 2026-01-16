@@ -54,8 +54,30 @@
       },
       "spawn_target": [],
       "surface_rule": {
-        "type": "minecraft:sequence",
-        "sequence": []
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:biome",
+          "biome_is": [
+            "endless_store_mod:abandoned_lands"
+          ]
+        },
+        "then_run": {
+          "type": "minecraft:condition",
+          "if_true": {
+            "type": "minecraft:y_above",
+            "anchor": {
+              "absolute": 60
+            },
+            "surface_depth_multiplier": 0,
+            "add_stone_depth": false
+          },
+          "then_run": {
+            "type": "minecraft:block",
+            "result_state": {
+              "Name": "endless_store_mod:probably_mud"
+            }
+          }
+        }
       }
     },
     "biome_source": {
@@ -64,7 +86,10 @@
         {
           "biome": "endless_store_mod:cardboard_wastelands",
           "parameters": {
-            "temperature": 0.21,
+            "temperature": [
+              0,
+              0.05
+            ],
             "humidity": 0,
             "continentalness": 0,
             "erosion": 0,
@@ -81,14 +106,20 @@
             "erosion": 0,
             "depth": 0,
             "offset": 0,
-            "temperature": -0.5,
+            "temperature": [
+              -0.3,
+              -0.2
+            ],
             "weirdness": 0
           }
         },
         {
           "biome": "endless_store_mod:big_storage_shelves",
           "parameters": {
-            "temperature": 0.6,
+            "temperature": [
+              0.6,
+              1
+            ],
             "humidity": 0,
             "continentalness": 0,
             "erosion": 0,
@@ -100,9 +131,27 @@
         {
           "biome": "endless_store_mod:trash_landfill",
           "parameters": {
-            "temperature": 0.55,
+            "temperature": [
+              0.45,
+              0.55
+            ],
             "humidity": 0,
             "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "endless_store_mod:abandoned_lands",
+          "parameters": {
+            "temperature": [
+              -0.5,
+              1
+            ],
+            "humidity": 0,
+            "continentalness": 0.2,
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,

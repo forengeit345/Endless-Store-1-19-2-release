@@ -1,0 +1,19 @@
+{
+  "name": "Water Strider",
+  "icon": "endless_store_mod:water_strider_eggs",
+  "advancement": "endless_store_mod:entities/water_strider",
+  "category": "endless_store_mod:entities",
+  "pages": [
+    {
+      "type": "text",
+      "text": "The Water Strider is the most disgusting creature I've ever seen. Moving on water, it lives in the stinking sewers and eats whatever it can find. Even when underfed, they can grow to the size of a decent dog and be just as strong. Moreover, they terraform everything around them, covering it in slime and egg clutches. One good thing: those eggs are very nutritious and taste okay..."
+    },
+    {
+      "type": "image",
+      "text": "Because of the darkness, the photo came out badly.",
+      "images": [
+        "endless_store_mod:textures/gui/entries/water_strider.png"
+      ]
+    }
+  ]
+}

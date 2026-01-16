@@ -59,6 +59,33 @@
     {
       "weight": 1,
       "element": {
+        "location": "endless_store_mod:trash_landfill/garage_interior/garage_interior_l_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "endless_store_mod:trash_landfill/garage_interior/garage_interior_l_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "endless_store_mod:trash_landfill/garage_interior/garage_interior_l_3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
         "location": "endless_store_mod:trash_landfill/garage_interior/garage_interior_m1",
         "processors": "minecraft:empty",
         "projection": "rigid",
@@ -87,6 +114,24 @@
       "weight": 1,
       "element": {
         "location": "endless_store_mod:trash_landfill/garage_interior/garage_interior_m4",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "endless_store_mod:trash_landfill/garage_interior/garage_interior_l_m1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "endless_store_mod:trash_landfill/garage_interior/garage_interior_l_m2",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

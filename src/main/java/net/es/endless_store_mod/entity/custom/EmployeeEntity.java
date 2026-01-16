@@ -1,6 +1,11 @@
 package net.es.endless_store_mod.entity.custom;
 
+import net.es.endless_store_mod.entity.ai.goal.AutoBlockBreakingGoal;
+import net.es.endless_store_mod.entity.ai.goal.SmartBlockBreakingGoal;
+import net.es.endless_store_mod.entity.mob.CustomHostileEntity;
+import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.Blocks;
 import net.minecraft.entity.EntityData;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
@@ -26,8 +31,19 @@ import software.bernie.geckolib.core.animatable.instance.SingletonAnimatableInst
 import software.bernie.geckolib.core.animation.*;
 import software.bernie.geckolib.core.object.PlayState;
 
+import java.util.HashSet;
+import java.util.Set;
 
-public class EmployeeEntity extends HostileEntity implements GeoEntity {
+
+public class EmployeeEntity extends CustomHostileEntity implements GeoEntity {
+
+    private static final Set<Block> breakableBlocks = Set.of(
+            Blocks.OAK_PLANKS, Blocks.SPRUCE_PLANKS, Blocks.COBBLESTONE,
+            Blocks.STONE_BRICKS, Blocks.DIRT, Blocks.GRASS_BLOCK,
+            Blocks.GLASS, Blocks.GLASS_PANE
+    );
+
+
 
     private AnimatableInstanceCache cache = new SingletonAnimatableInstanceCache(this);
 
@@ -47,8 +63,13 @@ public class EmployeeEntity extends HostileEntity implements GeoEntity {
     protected void initGoals() {
         this.goalSelector.add(1, new SwimGoal(this));
         this.goalSelector.add(2, new AttackGoal(this));
-        this.goalSelector.add(3, new WanderAroundFarGoal(this, 0.85f, 1));
-        this.goalSelector.add(4, new LookAroundGoal(this));
+
+//        this.goalSelector.add(0, new SmartBlockBreakingGoal(this, breakableBlocks));
+        this.goalSelector.add(0, new AutoBlockBreakingGoal(this, breakableBlocks, 1.0f));
+
+
+        this.goalSelector.add(4, new WanderAroundFarGoal(this, 0.85f, 1));
+        this.goalSelector.add(5, new LookAroundGoal(this));
 
         this.targetSelector.add(1, new RevengeGoal(this));
         this.targetSelector.add(2, new TargetGoal<>(this, PlayerEntity.class));

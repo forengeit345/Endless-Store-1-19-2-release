@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 1000,
+  "experience": 0.2,
+  "ingredient": {
+    "item": "endless_store_mod:empty_can"
+  },
+  "result": "endless_store_mod:molten_scrap"
+}

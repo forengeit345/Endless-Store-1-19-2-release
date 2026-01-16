@@ -58,6 +58,21 @@ public class EndlessStoreItemGroup {
                     entries.add(EndlessStoreBlocks.WALL_BLUE_TILES);
                     entries.add(EndlessStoreBlocks.TILES_WITH_BLACK_INCLUSIONS);
                     entries.add(EndlessStoreBlocks.FLOOR_TILES_MULTI_COLORED);
+                    entries.add(EndlessStoreBlocks.CONCRETE_MUD);
+                    entries.add(EndlessStoreBlocks.PROBABLY_MUD);
+                    entries.add(EndlessStoreBlocks.CHAIN_MAIL);
+                    entries.add(EndlessStoreBlocks.GREEN_MUD);
+                    entries.add(EndlessStoreBlocks.LIME_MUD);
+                    entries.add(EndlessStoreBlocks.LAMINATE_FLOORING_DARK_DAMAGED);
+                    entries.add(EndlessStoreBlocks.LAMINATE_FLOORING_LIGHT_DAMAGED);
+                    entries.add(EndlessStoreBlocks.LAMINATE_FLOORING_MANGROVE_DAMAGED);
+                    entries.add(EndlessStoreBlocks.LAMINATE_FLOORING_WHITE_DAMAGED);
+                    entries.add(EndlessStoreBlocks.WALLPAPER_BLUE_DAMAGED);
+                    entries.add(EndlessStoreBlocks.WALLPAPER_WHITE_DAMAGED);
+                    entries.add(EndlessStoreBlocks.WALLPAPER_YELLOW_DAMAGED);
+                    entries.add(EndlessStoreBlocks.WHITE_BRICK_DAMAGED);
+                    entries.add(EndlessStoreBlocks.WHITE_BRICK_MOSSY);
+
 //                    entries.add(EndlessStoreBlocks.BLACK_DOOR);
                     entries.add(EndlessStoreBlocks.METAL_PIPE);
                     entries.add(EndlessStoreBlocks.METAL_CORNER_PIPE);
@@ -89,6 +104,8 @@ public class EndlessStoreItemGroup {
                     entries.add(EndlessStoreBlocks.CARDBOARD_BOX_LARGE_OPEN);
                     entries.add(EndlessStoreBlocks.CARDBOARD_BOX_HUGE);
                     entries.add(EndlessStoreBlocks.CARDBOARD_BOX_HUGE_OPEN);
+                    entries.add(EndlessStoreBlocks.CARDBOARD_BOX_HUGE_TAPE);
+
                     entries.add(EndlessStoreBlocks.TRASH_CAN);
                     entries.add(EndlessStoreBlocks.PLATE);
                     entries.add(EndlessStoreBlocks.FUSE_BOX);
@@ -138,6 +155,28 @@ public class EndlessStoreItemGroup {
                     entries.add(EndlessStoreBlocks.GRID_VERTICAL);
                     entries.add(EndlessStoreBlocks.STORAGE_SHELVES);
                     entries.add(EndlessStoreBlocks.BATH);
+                    entries.add(EndlessStoreBlocks.SMALL_WOODEN_BARRICADES);
+                    entries.add(EndlessStoreBlocks.MEDIUM_WOODEN_BARRICADES);
+                    entries.add(EndlessStoreBlocks.LARGE_WOODEN_BARRICADES);
+                    entries.add(EndlessStoreBlocks.MUD_ON_FLOOR);
+                    entries.add(EndlessStoreBlocks.GARBAGE_ON_FLOOR);
+                    entries.add(EndlessStoreBlocks.CONCRETE_CRUMBS_ON_FLOOR);
+                    entries.add(EndlessStoreBlocks.WATER_STRIDER_EGG);
+                    entries.add(EndlessStoreBlocks.WATER_STRIDER_EGG_MIDDLE);
+                    entries.add(EndlessStoreBlocks.WATER_STRIDER_EGG_LARGE);
+                    entries.add(EndlessStoreBlocks.WATER_STRIDER_EGG_HUGE);
+                    entries.add(EndlessStoreBlocks.PAINTING_HORIZONTAL_FOREST);
+                    entries.add(EndlessStoreBlocks.PAINTING_HORIZONTAL_SUNSET);
+                    entries.add(EndlessStoreBlocks.PAINTING_HORIZONTAL_EMPTINESS);
+                    entries.add(EndlessStoreBlocks.PAINTING_VERTICAL_LAKE);
+                    entries.add(EndlessStoreBlocks.PAINTING_VERTICAL_CITY);
+                    entries.add(EndlessStoreBlocks.PAINTING_VERTICAL_PIPES);
+                    entries.add(EndlessStoreBlocks.FILING_CABINET_CLOSED);
+                    entries.add(EndlessStoreBlocks.FILING_CABINET_OPEN_UP);
+                    entries.add(EndlessStoreBlocks.FILING_CABINET_OPEN_DOWN);
+                    entries.add(EndlessStoreBlocks.SHOWCASE_WITH_DISHES);
+
+
                     entries.add(EndlessStoreBlocks.LAMP);
                     entries.add(EndlessStoreBlocks.LAMP_HIGH);
                     entries.add(EndlessStoreBlocks.LAMP_LED);
@@ -145,7 +184,6 @@ public class EndlessStoreItemGroup {
                     entries.add(EndlessStoreBlocks.LIGHT_BULB);
                     entries.add(EndlessStoreBlocks.LAMP_WALL);
                     entries.add(EndlessStoreBlocks.HANGING_LAMP);
-
 
                     entries.add(EndlessStoreItems.CONCRETE_CRUMBS);
                     entries.add(EndlessStoreItems.WOODEN_BOARD);
@@ -164,10 +202,17 @@ public class EndlessStoreItemGroup {
                     entries.add(EndlessStoreItems.SCRAP);
                     entries.add(EndlessStoreItems.TRASH_PLASTIC);
                     entries.add(EndlessStoreItems.WIRES);
+                    entries.add(EndlessStoreItems.CANISTER);
+                    entries.add(EndlessStoreItems.EMPTY_CAN);
+                    entries.add(EndlessStoreItems.ELECTRONIC_BOARD);
+                    entries.add(EndlessStoreItems.MICROCHIP);
+                    entries.add(EndlessStoreItems.COIL_COPPER_WIRES);
+                    entries.add(EndlessStoreItems.TRANSISTOR);
 
                     entries.add(EndlessStoreItems.BATON);
                     entries.add(EndlessStoreItems.FRYING_PAN);
                     entries.add(EndlessStoreItems.KNIFE);
+                    entries.add(EndlessStoreItems.EXTINGUISHER);
 
                     entries.add(EndlessStoreItems.PROFESSIONAL_PICKAXE);
                     entries.add(EndlessStoreItems.DURABLE_PICKAXE);
@@ -181,11 +226,18 @@ public class EndlessStoreItemGroup {
                     entries.add(EndlessStoreItems.SAWDUST_SOUP);
                     entries.add(EndlessStoreItems.CRISP);
                     entries.add(EndlessStoreItems.WET_WALLPAPER);
+                    entries.add(EndlessStoreItems.HOTDOG);
+                    entries.add(EndlessStoreItems.PANCAKE);
+                    entries.add(EndlessStoreItems.SANDWICH);
+                    entries.add(EndlessStoreItems.WATER_STRIDER_EGGS);
 
                     entries.add(EndlessStoreItems.EMPLOYEES_SHIRT);
                     entries.add(EndlessStoreItems.SECURITY_CAP);
                     entries.add(EndlessStoreItems.SECURITY_SHIRT);
-
+                    entries.add(EndlessStoreItems.CARDBOARD_HELMET);
+                    entries.add(EndlessStoreItems.CARDBOARD_TROUSERS);
+                    entries.add(EndlessStoreItems.HANDMADE_CHAIN_MAIL);
+                    entries.add(EndlessStoreItems.HANDMADE_CHAIN_MAIL_TROUSERS);
 
                     entries.add(EndlessStoreFluids.PLASTIC_WASTE_WATER_BUCKET);
                     entries.add(EndlessStoreFluids.PLASTIC_ACID_BUCKET);
@@ -194,6 +246,8 @@ public class EndlessStoreItemGroup {
                     entries.add(EndlessStoreItems.EMPLOYEE_SPAWN_EGG);
                     entries.add(EndlessStoreItems.JACK_SPAWN_EGG);
                     entries.add(EndlessStoreItems.SECURITY_SPAWN_EGG);
+                    entries.add(EndlessStoreItems.WATCHER_SPAWN_EGG);
+                    entries.add(EndlessStoreItems.WATER_STRIDER_EGG);
                 }).build());
 
     public static void registerItemGroups() {

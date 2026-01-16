@@ -23,7 +23,6 @@ public class HangingLamp extends HorizontalFacingBlock {
         super(settings);
     }
 
-
     private static final VoxelShape SHAPE = Block.createCuboidShape(0, 8, 0, 16, 16, 16);
 
     @Override

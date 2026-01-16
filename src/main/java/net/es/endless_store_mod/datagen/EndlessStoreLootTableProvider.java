@@ -36,5 +36,13 @@ public class EndlessStoreLootTableProvider extends FabricBlockLootTableProvider 
         addDrop(EndlessStoreBlocks.ORGANIZER);
         addDrop(EndlessStoreBlocks.CONCRETE_FURNACE);
         addDrop(EndlessStoreBlocks.EMPTY_ORGANIZER);
+        addDrop(EndlessStoreBlocks.WHITE_BRICK_DAMAGED);
+        addDrop(EndlessStoreBlocks.WHITE_BRICK_MOSSY);
+        addDrop(EndlessStoreBlocks.PAINTING_HORIZONTAL_FOREST);
+        addDrop(EndlessStoreBlocks.PAINTING_HORIZONTAL_SUNSET);
+        addDrop(EndlessStoreBlocks.PAINTING_HORIZONTAL_EMPTINESS);
+        addDrop(EndlessStoreBlocks.PAINTING_VERTICAL_LAKE);
+        addDrop(EndlessStoreBlocks.PAINTING_VERTICAL_CITY);
+        addDrop(EndlessStoreBlocks.PAINTING_VERTICAL_PIPES);
     }
 }

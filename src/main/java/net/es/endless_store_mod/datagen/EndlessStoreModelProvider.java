@@ -45,6 +45,20 @@ public class EndlessStoreModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerCubeAllModelTexturePool(EndlessStoreBlocks.PLASTIC_GARBAGE_COLORED);
         blockStateModelGenerator.registerCubeAllModelTexturePool(EndlessStoreBlocks.PLASTIC_GARBAGE_GREY);
         blockStateModelGenerator.registerCubeAllModelTexturePool(EndlessStoreBlocks.PLASTIC_GARBAGE_BLUE);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(EndlessStoreBlocks.CONCRETE_MUD);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(EndlessStoreBlocks.CHAIN_MAIL);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(EndlessStoreBlocks.GREEN_MUD);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(EndlessStoreBlocks.LIME_MUD);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(EndlessStoreBlocks.PROBABLY_MUD);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(EndlessStoreBlocks.LAMINATE_FLOORING_DARK_DAMAGED);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(EndlessStoreBlocks.LAMINATE_FLOORING_LIGHT_DAMAGED);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(EndlessStoreBlocks.LAMINATE_FLOORING_MANGROVE_DAMAGED);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(EndlessStoreBlocks.LAMINATE_FLOORING_WHITE_DAMAGED);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(EndlessStoreBlocks.WALLPAPER_BLUE_DAMAGED);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(EndlessStoreBlocks.WALLPAPER_WHITE_DAMAGED);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(EndlessStoreBlocks.WALLPAPER_YELLOW_DAMAGED);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(EndlessStoreBlocks.WHITE_BRICK_DAMAGED);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(EndlessStoreBlocks.WHITE_BRICK_MOSSY);
     }
 
     @Override

@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "There was a strange envelope with a letter written in a strange style not far from the door. I was informed that $(#ff0000)I wont be able to go back until I finish work$(). They also wrote to me that $(#ff0000)the store seizes all items at the entrance$(), which means I wont be able to take anything with me, its good that I put the safe near the entrance, there will be a place to put things."
+      "text": "Not far from the door lay a strange envelope with a letter written in an odd style. I was informed that $(#ff0000)I would not be able to return until I completed the work$(). It also said that $(#ff0000)the shop confiscates all items at the entrance$(), meaning I couldn't take anything with me. Good thing I placed a safe near the entrance—there will be a place to put my things."
     },
     {
       "type": "text",

@@ -26,12 +26,6 @@
 					]
 				},
 				{
-					"name": "bigcrystal2",
-					"parent": "armorHead",
-					"pivot": [-3.5, 34.5, 1],
-					"rotation": [2.92664, 22.48071, -31.94969]
-				},
-				{
 					"name": "bipedBody",
 					"pivot": [0, 24, 0]
 				},

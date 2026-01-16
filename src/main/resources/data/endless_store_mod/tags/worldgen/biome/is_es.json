@@ -1,9 +1,11 @@
 {
   "replace": false,
   "values": [
+    "endless_store_mod:canalization",
     "endless_store_mod:furniture_section",
     "endless_store_mod:big_storage_shelves",
     "endless_store_mod:cardboard_wastelands",
-    "endless_store_mod:trash_landfill"
+    "endless_store_mod:trash_landfill",
+    "endless_store_mod:abandoned_lands"
   ]
 }

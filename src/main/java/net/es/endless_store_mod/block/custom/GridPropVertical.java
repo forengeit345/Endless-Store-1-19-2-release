@@ -27,6 +27,7 @@ public class GridPropVertical extends HorizontalFacingBlock {
     private static final VoxelShape SHAPE_S = Block.createCuboidShape(0, 0, 7.5, 16, 16, 8.5);
     private static final VoxelShape SHAPE_W = Block.createCuboidShape(7.5, 0, 0, 8.5, 16, 16);
     private static final VoxelShape SHAPE_E = Block.createCuboidShape(7.5, 0, 0, 8.5, 16, 16);
+
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         return switch (state.get(FACING)) {

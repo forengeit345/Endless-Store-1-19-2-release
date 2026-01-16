@@ -1,5 +1,6 @@
 package net.es.endless_store_mod.entity.custom;
 
+import net.es.endless_store_mod.entity.mob.CustomHostileEntity;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.*;
 import net.minecraft.entity.ai.control.MoveControl;
@@ -32,7 +33,7 @@ import software.bernie.geckolib.core.object.PlayState;
 
 import java.util.EnumSet;
 
-public class JackEntity extends HostileEntity implements GeoEntity {
+public class JackEntity extends CustomHostileEntity implements GeoEntity {
     public float targetStretch;
     public float stretch;
     public float lastStretch;

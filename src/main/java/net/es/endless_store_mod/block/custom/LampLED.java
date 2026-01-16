@@ -23,7 +23,6 @@ public class LampLED extends HorizontalFacingBlock {
         super(settings);
     }
 
-
     private static final VoxelShape SHAPE_N = Block.createCuboidShape(7.25, 15.25, 2.5, 8.75, 16, 13.5);
     private static final VoxelShape SHAPE_S = Block.createCuboidShape(7.25, 15.25, 2.5, 8.75, 16, 13.5);
     private static final VoxelShape SHAPE_W = Block.createCuboidShape(2.5, 15.25, 7.25, 13.5, 16, 8.75);

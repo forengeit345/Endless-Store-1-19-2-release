@@ -28,6 +28,9 @@
 
     "endless_store_mod:ceiling_grid",
     "endless_store_mod:side_storage_shelves",
-    "endless_store_mod:side_beams"
+    "endless_store_mod:side_beams",
+
+    "endless_store_mod:concrete_mud",
+    "endless_store_mod:green_mud"
   ]
 }

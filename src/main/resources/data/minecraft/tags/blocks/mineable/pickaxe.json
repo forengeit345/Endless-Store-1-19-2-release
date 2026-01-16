@@ -47,6 +47,16 @@
     "endless_store_mod:side_beams",
     "endless_store_mod:ceiling_tiles_white",
     "endless_store_mod:vertical_boiler",
-    "endless_store_mod:horizontal_boiler"
+    "endless_store_mod:horizontal_boiler",
+    "endless_store_mod:green_mud",
+    "endless_store_mod:chain_mail",
+    "endless_store_mod:concrete_mud",
+    "endless_store_mod:filing_cabinet_closed",
+    "endless_store_mod:filing_cabinet_open_up",
+    "endless_store_mod:filing_cabinet_open_down",
+    "endless_store_mod:showcase_with_dishes",
+
+    "endless_store_mod:white_brick_damaged",
+    "endless_store_mod:white_brick_mossy"
   ]
 }

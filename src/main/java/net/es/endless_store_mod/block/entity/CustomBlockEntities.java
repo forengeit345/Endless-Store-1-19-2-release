@@ -14,7 +14,9 @@ public class CustomBlockEntities {
 
     public static final BlockEntityType<OldSafeEntity> OLD_SAFE = register("old_safe", FabricBlockEntityTypeBuilder.create(OldSafeEntity::new, EndlessStoreBlocks.OLD_SAFE).build(null));
     public static final BlockEntityType<BedsideTableEntity> BEDSIDE_TABLE = register("bedside_table", FabricBlockEntityTypeBuilder.create(BedsideTableEntity::new, EndlessStoreBlocks.BEDSIDE_TABLE).build(null));
+    public static final BlockEntityType<CardboardBoxHugeTapeEntity> CARDBOARD_BOX_HUGE_TAPE = register("cardboard_box_huge_tape", FabricBlockEntityTypeBuilder.create(CardboardBoxHugeTapeEntity::new, EndlessStoreBlocks.CARDBOARD_BOX_HUGE_TAPE).build(null));
     public static final BlockEntityType<CustomFurnaceBlockEntity> CONCRETE_FURNACE = register("concrete_safe", FabricBlockEntityTypeBuilder.create(CustomFurnaceBlockEntity::new, EndlessStoreBlocks.CONCRETE_FURNACE).build(null));
+    public static final BlockEntityType<PlateEntity> PLATE_ENTITY = register("plate_entity", FabricBlockEntityTypeBuilder.create(PlateEntity::new, EndlessStoreBlocks.PLATE).build(null));
 
 
     private static <T extends BlockEntity> BlockEntityType<T> register(String id, BlockEntityType<T> type) {

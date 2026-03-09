@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "endless_store_mod:block/vending_machine",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "endless_store_mod:block/vending_machine",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "endless_store_mod:block/vending_machine"
+    },
+    "facing=east": {
+      "model": "endless_store_mod:block/vending_machine",
+      "y": 180
+    }
+  }
+}

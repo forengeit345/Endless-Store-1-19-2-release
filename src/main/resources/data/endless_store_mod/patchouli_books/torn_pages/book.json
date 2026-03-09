@@ -1,0 +1,9 @@
+{
+  "name": "item.endless_store_mod.torn_pages",
+  "landing_text": "torn_pages.endless_store_mod.landing",
+  "version": 1,
+  "book_texture": "endless_store_mod:textures/gui/torn_pages.png",
+  "model": "endless_store_mod:torn_pages",
+  "creative_tab": "endless_store_mod.endless_store_tab",
+  "use_resource_pack": true
+}

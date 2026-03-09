@@ -1,0 +1,37 @@
+{
+  "name": "Работа с кислотой",
+  "icon": "endless_store_mod:plastic_acid_bucket",
+  "advancement": "endless_store_mod:biomes/trash_landfill",
+  "category": "endless_store_mod:received_data",
+  "pages": [
+    {
+      "type": "text",
+      "text": "На свалке, в отличие от других мест, нужно быть всегда настороже, иначе можно свалиться в кислотную яму. Узнал я о ней случайно, уронив туда ведро с инструментами. Прямо на моих глазах все металлические предметы расплавились, но, на удивление, хрупкое ведро уцелело. Кажется, эту кислоту можно использовать для обработки переплавленного металлолома."
+    },
+    {
+      "type": "image",
+      "text": "Прикладываю фотографию одного такого озера",
+      "images": [
+        "endless_store_mod:textures/gui/entries/working_with_acid.png"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Я постарался записать как можно больше рецептов - и чтобы самому не забыть, и чтобы помочь возможному читателю этого дневника."
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:bolts",
+      "recipe2": "endless_store_mod:nails"
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:metal_plates",
+      "recipe2": "endless_store_mod:metal_pipes"
+    },
+    {
+      "type": "text",
+      "text": ""
+    }
+  ]
+}

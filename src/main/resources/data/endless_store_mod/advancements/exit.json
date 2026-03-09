@@ -1,0 +1,78 @@
+{
+  "parent": "endless_store_mod:enter",
+  "display": {
+    "icon": {
+      "item": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "advancements.endless_store_mod.exit.title"
+    },
+    "description": {
+      "translate": "advancements.endless_store_mod.exit.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {},
+  "criteria": {
+    "coil_copper_wires": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "endless_store_mod:coil_copper_wires"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "electronic_board": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "endless_store_mod:electronic_board"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "microchip": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "endless_store_mod:microchip"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "transistor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "endless_store_mod:transistor"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+
+  "requirements": [
+    [
+      "coil_copper_wires",
+      "electronic_board",
+      "microchip",
+      "transistor"
+    ]
+  ]
+}

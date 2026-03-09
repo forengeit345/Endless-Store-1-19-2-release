@@ -1,0 +1,37 @@
+{
+  "name": "Working With Acid",
+  "icon": "endless_store_mod:plastic_acid_bucket",
+  "advancement": "endless_store_mod:biomes/trash_landfill",
+  "category": "endless_store_mod:received_data",
+  "pages": [
+    {
+      "type": "text",
+      "text": "In the dump, unlike other places, you always need to be careful, or you might fall into an acid pit. I learned about it by accident when I dropped a bucket with my tools into it. Right before my eyes, all my metal tools melted, but surprisingly, the fragile bucket remained intact. It seems I can use it for processing melted-down scrap metal."
+    },
+    {
+      "type": "image",
+      "text": "Attaching a photo of one such lake.",
+      "images": [
+        "endless_store_mod:textures/gui/entries/working_with_acid.png"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "I've tried to write down as many recipes as possible—both so I don't forget and to help the reader of this diary, if anyone ever finds it and wants to read it."
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:bolts",
+      "recipe2": "endless_store_mod:nails"
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:metal_plates",
+      "recipe2": "endless_store_mod:metal_pipes"
+    },
+    {
+      "type": "text",
+      "text": ""
+    }
+  ]
+}

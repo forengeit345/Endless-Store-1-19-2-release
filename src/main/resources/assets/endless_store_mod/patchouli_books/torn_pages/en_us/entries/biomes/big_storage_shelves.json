@@ -1,0 +1,16 @@
+{
+  "name": "Big Storage Shelves",
+  "icon": "endless_store_mod:side_storage_shelves",
+  "advancement": "endless_store_mod:biomes/big_storage_shelves",
+  "category": "endless_store_mod:biomes",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Enormous warehouse shelves with boxes and towering concrete columns reaching for the sky-that's mostly what this area is. It's hard to find shelter or get much food here, but there are many metal structures that can be turned into piles of scrap metal. The main enemies will be the Workers, "
+    },
+    {
+      "type": "text",
+      "text": "who see much better in open areas compared to the furniture section. Also, you can almost always find the garbage dump area on the border of this zone. Overall, I don't really like this place. It feels too... cold? And the arrows on the paths lead nowhere..."
+    }
+  ]
+}

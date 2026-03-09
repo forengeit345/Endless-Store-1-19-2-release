@@ -1,0 +1,19 @@
+{
+  "name": "Watcher",
+  "icon": "endless_store_mod:security_cap",
+  "advancement": "endless_store_mod:entities/watcher",
+  "category": "endless_store_mod:entities",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Despite its great height, this creature has no arms and seems to have no desire to fight at all. The Watcher is always searching for something that moves, and as soon as it finds it, it tries to get close and not leave your side. After spending a little time with it, you'll understand: it's not scary, it's just annoying. All in all, a sweetheart compared to the others."
+    },
+    {
+      "type": "image",
+      "text": "The only photograph of this creature",
+      "images": [
+        "endless_store_mod:textures/gui/entries/watcher.png"
+      ]
+    }
+  ]
+}

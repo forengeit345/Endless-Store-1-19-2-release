@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#*#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "endless_store_mod:pieces_of_wallpaper"
+    },
+    "*": {
+      "item": "endless_store_mod:plastic_waste_water_bucket"
+    }
+  },
+  "result":{
+    "item": "endless_store_mod:wet_wallpaper",
+    "count": 8
+  }
+}

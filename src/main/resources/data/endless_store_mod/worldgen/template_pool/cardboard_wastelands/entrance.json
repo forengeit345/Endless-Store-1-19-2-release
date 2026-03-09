@@ -1,0 +1,15 @@
+{
+  "name": "endless_store_mod:cardboard_wastelands/entrance",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "endless_store_mod:cardboard_wastelands/underground_corridors/entrance_to_dungeon",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

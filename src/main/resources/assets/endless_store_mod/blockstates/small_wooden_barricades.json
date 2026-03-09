@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "endless_store_mod:block/small_wooden_barricades",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "endless_store_mod:block/small_wooden_barricades",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "endless_store_mod:block/small_wooden_barricades"
+    },
+    "facing=east": {
+      "model": "endless_store_mod:block/small_wooden_barricades",
+      "y": 180
+    }
+  }
+}

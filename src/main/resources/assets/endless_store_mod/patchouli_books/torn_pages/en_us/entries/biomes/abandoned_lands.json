@@ -1,0 +1,16 @@
+{
+  "name": "Abandoned Lands",
+  "icon": "endless_store_mod:chain_mail",
+  "advancement": "endless_store_mod:biomes/abandoned_lands",
+  "category": "endless_store_mod:biomes",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Perhaps the most unpleasant place I've encountered so far. There's almost nothing to do here-no food, no water, although it's relatively safe on the surface. Once I saw a figure nearly 3 meters tall, but I didn't have the courage to approach it. The strange thing is, I saw several hatches leading deep underground. There was a terrible smell coming from them, along with clicking and chittering sounds."
+    },
+    {
+      "type": "text",
+      "text": "I definitely should NOT (crossed out) crawl into them."
+    }
+  ]
+}

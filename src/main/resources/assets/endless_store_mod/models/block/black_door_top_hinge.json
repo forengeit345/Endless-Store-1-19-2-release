@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_rh",
+  "textures": {
+    "top": "endless_store_mod:block/black_door_top",
+    "bottom": "endless_store_mod:block/black_door_bottom"
+  }
+}

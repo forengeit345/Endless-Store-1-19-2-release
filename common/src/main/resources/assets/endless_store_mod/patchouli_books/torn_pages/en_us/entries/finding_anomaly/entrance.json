@@ -1,0 +1,18 @@
+{
+  "name": "Entrance",
+  "icon": "endless_store_mod:globe",
+  "category": "endless_store_mod:finding_anomaly",
+  "pages": [
+    {
+      "type": "text",
+      "text": "After traveling a long distance, you will eventually encounter a strange anomaly—a piece of another world in ours. It always appears on the surface, but the chance of finding it is extremely low. Most often, you can find it in fields—regular and snowy—as well as in the desert."
+    },
+    {
+      "type": "image",
+      "text": "I have attached a photo of one of the few variations of such an anomaly.",
+      "images": [
+        "endless_store_mod:textures/gui/entries/entrance.png"
+      ]
+    }
+  ]
+}

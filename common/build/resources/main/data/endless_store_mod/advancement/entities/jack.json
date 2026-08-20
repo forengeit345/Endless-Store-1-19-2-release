@@ -1,0 +1,41 @@
+{
+  "parent": "endless_store_mod:travelers",
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "advancements.endless_store_mod.jack.title"
+    },
+    "description": {
+      "translate": "advancements.endless_store_mod.jack.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {},
+  "criteria": {
+    "endless_store_mod:jack": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "endless_store_mod:jack"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "requirements": [
+    [
+      "endless_store_mod:jack"
+    ]
+  ]
+}

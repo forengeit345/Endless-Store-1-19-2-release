@@ -1,0 +1,19 @@
+{
+  "name": "Jack",
+  "icon": "endless_store_mod:trash_plastic",
+  "advancement": "endless_store_mod:entities/jack",
+  "category": "endless_store_mod:entities",
+  "pages": [
+    {
+      "type": "text",
+      "text": "When I first entered the dump, it seemed like there was no life there at all. But when darkness fell, small creatures crawled out from under the rubble. They are quite weak and slow, and the piles of garbage hinder their attacks. They are always aggressive toward you, no matter what you do."
+    },
+    {
+      "type": "image",
+      "text": "Evening photography",
+      "images": [
+        "endless_store_mod:textures/gui/entries/jack.png"
+      ]
+    }
+  ]
+}

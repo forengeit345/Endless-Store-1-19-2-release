@@ -1,0 +1,68 @@
+{
+  "carvers": {
+    "air": [
+      "minecraft:cave"
+    ]
+  },
+  "downfall": 0,
+  "effects": {
+    "sky_color": 16249843,
+    "fog_color": 14736607,
+    "water_color": 9349545,
+    "water_fog_color": 12371656
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    ["endless_store_mod:sin_wave_hill"],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "has_precipitation": true,
+  "spawn_costs": {
+    "endless_store_mod:employee": {
+      "charge": 1,
+      "energy_budget": 0.25
+    },
+    "endless_store_mod:security": {
+      "charge": 1,
+      "energy_budget": 0.12
+    },
+    "endless_store_mod:jack": {
+      "charge": 1,
+      "energy_budget": 0.25
+    },
+    "endless_store_mod:water_strider": {
+      "charge": 1,
+      "energy_budget": 0.18
+    },
+    "endless_store_mod:watcher": {
+      "charge": 1,
+      "energy_budget": 0.1
+    }
+  },
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "endless_store_mod:security",
+        "weight": 5,
+        "maxCount": 2,
+        "minCount": 1
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 2
+}

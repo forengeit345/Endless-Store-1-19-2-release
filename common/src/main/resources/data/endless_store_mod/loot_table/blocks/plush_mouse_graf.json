@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "endless_store_mod:plush_mouse_graf"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "endless_store_mod:blocks/plush_mouse_graf"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "endless_store_mod:concrete_crumbs"
+    }
+  },
+  "result":{
+    "id": "endless_store_mod:concrete_stairs",
+    "count": 2
+  }
+}

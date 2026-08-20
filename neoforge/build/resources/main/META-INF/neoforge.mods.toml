@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+#issueTrackerURL = ""
+license = "Licensed Apache-2.0"
+
+[[mods]]
+modId = "endless_store_mod"
+version = "1.0.0"
+displayName = "Endless Store Mod"
+authors = "forengeit345, Mikr"
+description = '''
+Oh, I forgot about description...
+'''
+#logoFile = ""
+
+[[dependencies.endless_store_mod]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.endless_store_mod]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[mixins]]
+config = "endless_store_mod.mixins.json"

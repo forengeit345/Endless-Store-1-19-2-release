@@ -1,0 +1,16 @@
+{
+  "name": "Known Data",
+  "icon": "endless_store_mod:book_variant_three",
+  "advancement": "endless_store_mod:enter",
+  "category": "endless_store_mod:finding_anomaly",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Before entering this dimension, I tried to gather as much information as possible. It wasn't easy, because mostly junk from our world ends up here, but I managed to find some valuable things too. Among them, a square metal box that glowed stood out. Something was written on it, but the label that immediately caught my eye was $(#ff0000)EXIT$()."
+    },
+    {
+      "type": "text",
+      "text": "When I tried to interact with the box, it went dark and the smell of burning filled the air. Perhaps, once in the dimension, I'll be able to find another one or $(#ff0000)create something similar...$()"
+    }
+  ]
+}

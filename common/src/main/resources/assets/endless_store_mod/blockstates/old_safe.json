@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "endless_store_mod:block/old_safe",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "endless_store_mod:block/old_safe"
+    },
+    "facing=west": {
+      "model": "endless_store_mod:block/old_safe",
+      "y": 90
+    },
+    "facing=east": {
+      "model": "endless_store_mod:block/old_safe",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Создание инструментов",
+  "icon": "endless_store_mod:flimsy_pickaxe",
+  "advancement": "endless_store_mod:biomes/furniture_section",
+  "category": "endless_store_mod:received_data",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Инструменты в этом мире тоже нужны. Добыть ресурсы для них привычным способом оказалось невозможно: пол невероятно твердый, а деревьев здесь нет. Но решение было под рукой: в этом мире уже существуют готовые доски (в мебели), то же самое и с другими ресурсами."
+    },
+    {
+      "type": "text",
+      "text": "Но даже так пришлось заменить многие материалы на их местные аналоги. Кроме того, я создал прототипы брони из местных материалов. Защитные качества посредственные, но особого выбора нет."
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:flimsy_pickaxe",
+      "recipe2": "endless_store_mod:handmade_pickaxe"
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:handmade_shovel",
+      "recipe2": "endless_store_mod:handmade_axe"
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:durable_pickaxe",
+      "recipe2": "endless_store_mod:cardboard_helmet"
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:cardboard_trousers",
+      "recipe2": "endless_store_mod:handmade_chain_mail"
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:handmade_chain_mail_trousers"
+    },
+    {
+      "type": "text",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Creating Tools",
+  "icon": "endless_store_mod:flimsy_pickaxe",
+  "advancement": "endless_store_mod:biomes/furniture_section",
+  "category": "endless_store_mod:received_data",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Tools are also needed in this world. Getting the resources I needed for tools in the usual way turned out to be impossible—the floor was incredibly hard, and I didn't find any trees in this world. But the solution was always at hand: ready-made planks already exist in this world—in furniture. The same goes for other resources."
+    },
+    {
+      "type": "text",
+      "text": "But even so, I had to replace many materials with local alternatives. Furthermore, I created armor prototypes from local materials. The protective qualities are mediocre, but there isn't much choice."
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:flimsy_pickaxe",
+      "recipe2": "endless_store_mod:handmade_pickaxe"
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:handmade_shovel",
+      "recipe2": "endless_store_mod:handmade_axe"
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:durable_pickaxe",
+      "recipe2": "endless_store_mod:cardboard_helmet"
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:cardboard_trousers",
+      "recipe2": "endless_store_mod:handmade_chain_mail"
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:handmade_chain_mail_trousers"
+    },
+    {
+      "type": "text",
+      "text": ""
+    }
+  ]
+}

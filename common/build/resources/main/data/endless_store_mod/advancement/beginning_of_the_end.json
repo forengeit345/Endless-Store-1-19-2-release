@@ -1,0 +1,95 @@
+{
+  "parent": "endless_store_mod:enter",
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "advancements.endless_store_mod.beginning_of_the_end.title"
+    },
+    "description": {
+      "translate": "advancements.endless_store_mod.beginning_of_the_end.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {},
+  "criteria": {
+    "big_storage_shelves": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "endless_store_mod:big_storage_shelves"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "cardboard_wastelands": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "endless_store_mod:cardboard_wastelands"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "furniture_section": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "endless_store_mod:furniture_section"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "trash_landfill": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "endless_store_mod:trash_landfill"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+
+  "requirements": [
+    [
+      "big_storage_shelves",
+      "cardboard_wastelands",
+      "furniture_section",
+      "trash_landfill"
+    ]
+  ]
+}

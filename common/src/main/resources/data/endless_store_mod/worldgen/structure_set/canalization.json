@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "endless_store_mod:canalization",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1695766303,
+    "spacing": 10,
+    "separation": 6
+  }
+}

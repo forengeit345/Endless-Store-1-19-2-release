@@ -1,0 +1,16 @@
+{
+  "name": "Potential Danger",
+  "icon": "endless_store_mod:outdoor_sign",
+  "advancement": "endless_store_mod:enter",
+  "category": "endless_store_mod:finding_anomaly",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Not far from the door lay a strange envelope with a letter written in an odd style. I was informed that $(#ff0000)I would not be able to return until I completed the work$(). It also said that $(#ff0000)the shop confiscates all items at the entrance$(), meaning I couldn't take anything with me. Good thing I placed a safe near the entrance—there will be a place to put my things."
+    },
+    {
+      "type": "text",
+      "text": ""
+    }
+  ]
+}

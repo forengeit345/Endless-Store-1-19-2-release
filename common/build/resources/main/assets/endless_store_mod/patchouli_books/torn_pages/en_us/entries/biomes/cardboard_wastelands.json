@@ -1,0 +1,16 @@
+{
+  "name": "Cardboard Wastelands",
+  "icon": "endless_store_mod:piece_of_cardboard",
+  "advancement": "endless_store_mod:biomes/cardboard_wastelands",
+  "category": "endless_store_mod:biomes",
+  "pages": [
+    {
+      "type": "text",
+      "text": "The zone with empty boxes takes up about 70% of the entire endless area, and unfortunately, that's the case. It's not very easy to move through this area, and at night, not-so-friendly guards appear here. There isn't much food, but there's quite a lot of water. There are also underground structures you should enter very carefully due to their danger."
+    },
+    {
+      "type": "text",
+      "text": "On the surface, you can sometimes find small campsites. I don't even know who could have left them, but they work well enough as temporary shelters. Verdict-not the most pleasant place."
+    }
+  ]
+}

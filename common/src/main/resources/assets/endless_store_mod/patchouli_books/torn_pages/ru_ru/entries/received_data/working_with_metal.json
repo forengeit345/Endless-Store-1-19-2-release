@@ -1,0 +1,26 @@
+{
+  "name": "Работа с металлом",
+  "icon": "endless_store_mod:molten_scrap",
+  "advancement": "endless_store_mod:biomes/furniture_section",
+  "category": "endless_store_mod:received_data",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Добыча и обработка металла здесь работают иначе. Металлолом на начальном этапе можно добыть из подземных труб с помощью простой кирки. Потом его можно извлекать из большинства предметов мебели, имея кирку получше. Найти нужный камень мне не удалось, и я заменил его бетоном. В итоге получилась бетонная печь из бетонных кирпичей (их рецепты я тоже запишу)."
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:concrete_brick",
+      "recipe2": "endless_store_mod:concrete_furnace"
+    },
+    {
+      "type": "smelting",
+      "recipe": "endless_store_mod:molten_scrap",
+      "text": "Имея топливо, бетонную печь и металлолом, можно получить расплавленный металл, который затем используется вместе с кислотой."
+    },
+    {
+      "type": "text",
+      "text": ""
+    }
+  ]
+}

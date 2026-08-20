@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "endless_store_mod:block/painting_horizontal_sunset",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "endless_store_mod:block/painting_horizontal_sunset"
+    },
+    "facing=west": {
+      "model": "endless_store_mod:block/painting_horizontal_sunset",
+      "y": 90
+    },
+    "facing=east": {
+      "model": "endless_store_mod:block/painting_horizontal_sunset",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "endless_store_mod:exit",
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "advancements.endless_store_mod.electronic_board.title"
+    },
+    "description": {
+      "translate": "advancements.endless_store_mod.electronic_board.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {},
+  "criteria": {
+    "endless_store_mod:electronic_board": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "endless_store_mod:electronic_board"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "endless_store_mod:electronic_board"
+    ]
+  ]
+}

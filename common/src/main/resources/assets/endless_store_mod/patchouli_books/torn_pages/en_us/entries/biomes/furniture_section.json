@@ -1,0 +1,16 @@
+{
+  "name": "Furniture Section",
+  "icon": "endless_store_mod:armchair",
+  "advancement": "endless_store_mod:biomes/furniture_section",
+  "category": "endless_store_mod:biomes",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Out of all the other areas, this one is the nicest. It has a lot of building resources, enough food, and because of the many small rooms, it's very easy to build your own base. It's safe enough, aside from the large number of Workers. The most comfortable place to stay out of all presented. Not much more to say about it."
+    },
+    {
+      "type": "text",
+      "text": ""
+    }
+  ]
+}

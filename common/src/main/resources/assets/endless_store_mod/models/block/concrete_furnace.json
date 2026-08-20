@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/orientable",
+	"textures": {
+		"front": "endless_store_mod:block/concrete_furnace_front",
+		"side": "endless_store_mod:block/concrete_furnace_side",
+		"top": "endless_store_mod:block/concrete_furnace_top"
+	}
+}

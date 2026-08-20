@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#+#",
+    " * ",
+    " * "
+  ],
+  "key": {
+    "#": {
+      "item": "endless_store_mod:wooden_board"
+    },
+    "*": {
+      "item": "minecraft:stick"
+    },
+    "+": {
+      "item": "endless_store_mod:nails"
+    }
+  },
+  "result":{
+    "id": "endless_store_mod:flimsy_pickaxe"
+  }
+}

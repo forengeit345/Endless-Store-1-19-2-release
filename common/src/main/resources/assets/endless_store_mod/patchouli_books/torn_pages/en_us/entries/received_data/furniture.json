@@ -1,0 +1,57 @@
+{
+  "name": "Furniture",
+  "icon": "endless_store_mod:wooden_chair",
+  "advancement": "endless_store_mod:biomes/furniture_section",
+  "category": "endless_store_mod:received_data",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Carrying furniture is very heavy, and some of it can't be lifted at all due to its weight, so I had to break everything in my path. Unfortunately, I couldn't restore some parts of the furniture, but I managed to recreate simpler things like tables with great detail. I've tried to write down all the known furniture blueprints here, though I might have forgotten something..."
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:crafting_table",
+      "recipe2": "endless_store_mod:bedside_table"
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:lamp",
+      "recipe2": "endless_store_mod:metal_closet"
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:wooden_table",
+      "recipe2": "endless_store_mod:padded_stool"
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:plastic_chair",
+      "recipe2": "endless_store_mod:plastic_table"
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:plush_mouse_graf",
+      "recipe2": "endless_store_mod:shelves"
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:square_shelf",
+      "recipe2": "endless_store_mod:wardrobe"
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:white_bookshelf",
+      "recipe2": "endless_store_mod:wooden_chair"
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:small_wooden_barricades",
+      "recipe2": "endless_store_mod:medium_wooden_barricades"
+    },
+    {
+      "type": "crafting",
+      "recipe": "endless_store_mod:large_wooden_barricades",
+      "recipe2": "endless_store_mod:fuse_box"
+    }
+  ]
+}

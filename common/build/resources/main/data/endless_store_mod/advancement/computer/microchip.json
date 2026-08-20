@@ -1,0 +1,39 @@
+{
+  "parent": "endless_store_mod:exit",
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "advancements.endless_store_mod.microchip.title"
+    },
+    "description": {
+      "translate": "advancements.endless_store_mod.microchip.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {},
+  "criteria": {
+    "endless_store_mod:microchip": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "endless_store_mod:microchip"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "endless_store_mod:microchip"
+    ]
+  ]
+}
